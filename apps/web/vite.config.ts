@@ -90,7 +90,8 @@ export default defineConfig({
     },
   },
   build: {
-    target: 'esnext'
+    target: 'esnext',
+    emptyOutDir: false
   },
   esbuild: {
     supported: {
